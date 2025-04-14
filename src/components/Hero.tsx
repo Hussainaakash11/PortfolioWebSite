@@ -53,7 +53,7 @@ const Hero: React.FC = () => {
 
         <div className="hidden md:block md:w-1/3 animate-fade-in" style={{ animationDelay: "0.3s" }}>
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20 mx-auto">
-          <img src="public\abc.jpg" // <- Change this to your actual image path
+          <img src="abc.jpg" // <- Change this to your actual image path
               alt="Profile"
               className="w-full h-full object-cover"/>
           </div>
