@@ -152,7 +152,7 @@ const Contact: React.FC = () => {
                 <p className="flex items-center gap-3">
                   <Linkedin className="h-5 w-5 text-primary" />
                   <a 
-                    href="https://linkedin.com/aakash-hussain11" 
+                    href="https://www.linkedin.com/in/aakash-hussain11/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="hover:text-primary transition-colors"
