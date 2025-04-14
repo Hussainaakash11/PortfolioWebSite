@@ -11,7 +11,7 @@ const About: React.FC = () => {
           <div className="lg:w-1/2">
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20 mx-auto">
-              <img src="public\1211.jpg" // <- Change this to your actual image path
+              <img src="1211.jpg" // <- Change this to your actual image path
               alt="Profile"
               className="w-full h-full object-cover"/>
               </div>
