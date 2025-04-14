@@ -39,7 +39,7 @@ Follow these instructions to get a local copy up and running for development pur
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/Hussainaakash11/portfolio
+    git clone [https://github.com/Hussainaakash11/portfolio](https://github.com/Hussainaakash11/PortfolioWebSite.git)
     cd PORTFOLIO
     ```
 
