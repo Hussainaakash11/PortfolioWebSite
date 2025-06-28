@@ -48,7 +48,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
 const Experience: React.FC = () => {
   const workExperiences = [
     {
-      title: "Machine Learning Intern",
+      title: "AI/ML Intern",
       organization: "TechSaksham",
       period: "Feb 2025 - March 2025",
       description: "Developed an AI-powered Resume Screening and Ranking System using CNN/deep learning and Streamlit. Achieved 72% accuracy in matching resumes to job descriptions.",
