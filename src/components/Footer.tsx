@@ -55,9 +55,9 @@ const Footer: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
-              aria-label="CodeChef"
+              aria-label="LeetCode"
             >
-              <Leetcode className="h-5 w-5" />
+              <Code className="h-5 w-5" />
             </a>
             <a
               href="mailto:hussainaakash11@gmail.com"
