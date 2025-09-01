@@ -1,17 +1,16 @@
-
 import React from 'react';
-import { Github, Linkedin, Twitter, Mail, Download, Code } from 'lucide-react';
+import { Github, Linkedin, Mail, Download, Code } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
-  
+
   return (
     <footer className="glass-panel py-8">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="text-center md:text-left mb-6 md:mb-0">
             <div className="flex items-center justify-center md:justify-start gap-2 mb-3">
-              <div className="h-8 w-8 rounded-full bg-primary flex items-center justify-center">
+              <div className="h-8 w-8 rounded-full bg-primary flex items-center justify-center hover:scale-105 transition-transform">
                 <span className="text-white font-semibold">AH</span>
               </div>
               <span className="font-medium">Aakash Hussain Naikoo</span>
@@ -20,7 +19,7 @@ const Footer: React.FC = () => {
               B.Tech IT Student | ML Enthusiast | Frontend Developer
             </p>
           </div>
-          
+
           <div className="flex items-center gap-6">
             <a
               href="https://github.com/Hussainaakash11"
@@ -47,8 +46,7 @@ const Footer: React.FC = () => {
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="CodeChef"
             >
-              <Code className="h-5 w-5" />
-            </a>
+              <Code className="h-5 w-5" title="CodeChef" />
             </a>
             <a
               href="https://leetcode.com/u/ghostman11/"
@@ -57,7 +55,7 @@ const Footer: React.FC = () => {
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="LeetCode"
             >
-              <Code className="h-5 w-5" />
+              <Code className="h-5 w-5" title="LeetCode" />
             </a>
             <a
               href="mailto:hussainaakash11@gmail.com"
@@ -68,17 +66,18 @@ const Footer: React.FC = () => {
             </a>
           </div>
         </div>
-        
+
         <div className="border-t border-border/30 mt-6 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-muted-foreground text-center md:text-left mb-4 md:mb-0">
               © {currentYear} Aakash Hussain Naikoo. All rights reserved.
             </p>
-            
+
             <div className="flex gap-6">
-              <a 
-                href="https://drive.google.com/file/d/1G24xPClbT_k54zaCIikbWXoFpY4nEUBV/view?usp=drive_link" 
+              <a
+                href="https://drive.google.com/file/d/1G24xPClbT_k54zaCIikbWXoFpY4nEUBV/view?usp=drive_link"
                 className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1"
+                aria-label="Download Resume"
               >
                 <Download className="h-4 w-4" />
                 <span className="text-sm">Download Resume</span>
