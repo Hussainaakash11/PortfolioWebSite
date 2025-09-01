@@ -49,6 +49,16 @@ const Footer: React.FC = () => {
             >
               <Code className="h-5 w-5" />
             </a>
+            </a>
+            <a
+              href="https://leetcode.com/u/ghostman11/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+              aria-label="CodeChef"
+            >
+              <Leetcode className="h-5 w-5" />
+            </a>
             <a
               href="mailto:hussainaakash11@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -67,7 +77,7 @@ const Footer: React.FC = () => {
             
             <div className="flex gap-6">
               <a 
-                href="https://drive.google.com/file/d/1yVvytPrhtU3604BkDRApmj4jQQoHDX_O/view?usp=drive_link" 
+                href="https://drive.google.com/file/d/1G24xPClbT_k54zaCIikbWXoFpY4nEUBV/view?usp=drive_link" 
                 className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1"
               >
                 <Download className="h-4 w-4" />
