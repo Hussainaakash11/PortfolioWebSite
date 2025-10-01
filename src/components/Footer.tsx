@@ -75,7 +75,7 @@ const Footer: React.FC = () => {
 
             <div className="flex gap-6">
               <a
-                href="https://drive.google.com/file/d/1G24xPClbT_k54zaCIikbWXoFpY4nEUBV/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1r7w7TG7fOh_PCUMuHncqznpOtKYYrz1B/view?usp=drive_link"
                 className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1"
                 aria-label="Download Resume"
               >
